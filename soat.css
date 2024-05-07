@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.div_1 {
+    width: 1900px;
+    height: 1000px;
+    border: 2px solid black;
+    background-image: url("./rasimlar/back-img.png");
+    /* filter: blur(100%); */
+    filter: blur(100%);
+}
+
+.div_1_1 {
+    width: 1900px;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+.div_h1 {
+    width: auto;
+    height: 50px;
+    padding-top: 50px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    padding-bottom: 10px;
+
+
+    >h1 {
+        font-size: 32px;
+        font-family: 'jost', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+
+}
+
+
+.div_chiziq {
+    width: 1200px;
+    height: 2px;
+    background-color: white;
+    margin: auto;
+}
+
+.div_select_p {
+    width: auto;
+    height: 50px;
+    /* border: 2px solid white; */
+    display: flex;
+    padding-top: 20px;
+
+}
+
+.div_p {
+    width: 400px;
+    height: 50px;
+    /* border: 2px solid white; */
+    padding-top: 10px;
+    /* margin: auto; */
+    padding-left: 600px;
+
+    >p {
+        color: white;
+        font-size: 23px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 10px;
+
+
+    }
+}
+
+.div_select {
+    width: 300px;
+    height: 50px;
+    /* border: 2px solid beige; */
+
+
+    >select {
+        width: 200px;
+        height: 50px;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 5px;
+        border-radius: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+
+
+    /* margin: auto; */
+}
+
+.div_mintaqa_sana_soat {
+    width: 1500px;
+    height: 80px;
+    /* border: 2px solid wheat; */
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 200px;
+}
+
+.mintaqa_vaqti {
+    width: 500px;
+    height: 80px;
+    /* border: 2px solid white; */
+
+    >h1 {
+        font-size: 25px;
+        letter-spacing: 2px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 5px;
+
+        >span{
+            color: gold;
+        }
+
+    }
+}
+
+.sana_va_soat{
+    width: 650px;
+    height: 80px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+
+
+}
+
+.sana_va_karta{
+    display: flex;
+    width: 420px;
+    height: auto;
+    /* border: 2px solid white; */
+    justify-content: space-between;
+    >h1{
+        color: gold;
+    }
+}
