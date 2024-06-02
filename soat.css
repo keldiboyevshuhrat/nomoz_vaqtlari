@@ -11,6 +11,7 @@
     background-image: url("./rasimlar/back-img.png");
     /* filter: blur(100%); */
     filter: blur(100%);
+    margin: auto;
 }
 
 .div_1_1 {
@@ -280,7 +281,7 @@
     .div_1 {
         width: 375px;
         height: auto;
-        /* border: 2px solid black; */
+        border: 2px solid black;
         background-image: url(./rasimlar/calendar\ \(2\)\ 1.png);
         /* filter: blur(100%); */
         filter: blur(100%);
